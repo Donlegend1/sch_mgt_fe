@@ -1,0 +1,9 @@
+.customBorder{
+    border: black solid 2px;
+    border-radius: 10px;
+}
+.customText{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}

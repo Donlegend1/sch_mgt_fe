@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .left-col,
+  .right-col {
+    width: 50%;
+  }
+  
+  .vertical-line {
+    width: 1px;
+    height: 95%;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .dotted-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dotted-list li {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .dotted-list li span {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  
+  .dotted-list li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    right: -5px;
+    border-top: 1px dotted black;
+    transform: translateY(-50%);
+  }
+  .list-item {
+    display: inline-block;
+    height: 20px; /* Adjust the height to your desired margin */
+    width: 95%; /* To occupy the full width of the list item */
+  }
+  @media print {
+    body * {
+      visibility: hidden;
+      font-family: 'Times New Roman', Times, serif, ;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .enrollNoPrintPassport{
+      margin-left: 50px;
+    }
+    .mainPrintSection{
+      margin-left: 50px;
+    }
+    .enrollNoPrintSection{
+      margin-left: 50px;
+    }
+    .hideBtn{
+        display: none;
+    }
+    #hideDate {
+        display: none;
+    }
+    #print,
+    #print * {
+      visibility: visible;
+    }
+    #print {
+      position: absolute;
+      left: 0;
+      top: 0;
+      zoom: 150%;
+      font-size: 18px;
+      page-break-inside: avoid;
+    }
+    .causeListHeading {
+      page-break-after: always;
+    }
+    
+  }
+  
