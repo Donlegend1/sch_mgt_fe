@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import About from "../Scn-WebComponents/About";
+import Features from "../Scn-WebComponents/Features";
 
 
 const AboutPage = () => {
@@ -64,7 +65,8 @@ const AboutPage = () => {
         </div>
       </div>
 
-     <About />
+      <About />
+      <Features />
     </>
   );
 };

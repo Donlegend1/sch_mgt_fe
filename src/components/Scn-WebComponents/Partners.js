@@ -8,7 +8,7 @@ import { Pagination, Navigation } from "swiper/modules";
 const Clients = () => {
   return (
     <div className="container-fluid py-5">
-      <div className="container pt-5 pb-3">
+      <div className="container py-5">
         <div className="text-center mb-5">
           <h5
             className="text-primary text-uppercase mb-3"
@@ -26,59 +26,180 @@ const Clients = () => {
           modules={[Pagination, Navigation]}
           className="mySwiper">
           <SwiperSlide>
-            <div className="school-item position-relative overflow-hidden rounded mb-2">
+            <div className="rounded overflow-hidden mb-2">
               <img
                 className="img-fluid"
-                src="/web2/img/blog-2.jpg"
-                alt="School 1"
+                src="/web2/img/course-1.jpg"
+                alt="Course 1"
               />
-              <a
-                className="school-overlay text-decoration-none"
-                href="#">
-                <h5 className="text-white mb-3">
+              <div className="bg-secondary p-4">
+                <div className="d-flex justify-content-between mb-3">
+                  <small className="m-0">
+                    <i className="fa fa-users text-primary mr-2" />
+                    25 Students
+                  </small>
+                  <small className="m-0">
+                    <i className="far fa-clock text-primary mr-2" />
+                    01h 30m
+                  </small>
+                </div>
+                <a
+                  className="h5"
+                  href="#">
                   Greenfield International School
-                </h5>
-                <p className="text-primary m-0">
-                  Top-notch education with innovative learning techniques.
-                </p>
-              </a>
+                </a>
+                <div className="border-top mt-4 pt-4">
+                  <div className="d-flex justify-content-between">
+                    <h6 className="m-0">
+                      <i className="fa fa-star text-primary mr-2" />
+                      4.5 <small>(250)</small>
+                    </h6>
+                    <h5 className="m-0">$99</h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="school-item position-relative overflow-hidden rounded mb-2">
+            <div className="rounded overflow-hidden mb-2">
               <img
                 className="img-fluid"
-                src="/web2/img/blog-2.jpg"
-                alt="School 2"
+                src="/web2/img/course-2.jpg"
+                alt="Course 2"
               />
-              <a
-                className="school-overlay text-decoration-none"
-                href="#">
-                <h5 className="text-white mb-3">Bright Future Academy</h5>
-                <p className="text-primary m-0">
-                  Empowering students to excel academically and socially.
-                </p>
-              </a>
+              <div className="bg-secondary p-4">
+                <div className="d-flex justify-content-between mb-3">
+                  <small className="m-0">
+                    <i className="fa fa-users text-primary mr-2" />
+                    25 Students
+                  </small>
+                  <small className="m-0">
+                    <i className="far fa-clock text-primary mr-2" />
+                    01h 30m
+                  </small>
+                </div>
+                <a
+                  className="h5"
+                  href="#">
+                  Bright Future Academy
+                </a>
+                <div className="border-top mt-4 pt-4">
+                  <div className="d-flex justify-content-between">
+                    <h6 className="m-0">
+                      <i className="fa fa-star text-primary mr-2" />
+                      4.5 <small>(200)</small>
+                    </h6>
+                    <h5 className="m-0">$120</h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="school-item position-relative overflow-hidden rounded mb-2">
+            <div className="rounded overflow-hidden mb-2">
               <img
                 className="img-fluid"
-                src="/web2/img/blog-2.jpg"
-                alt="School 3"
+                src="/web2/img/course-3.jpg"
+                alt="Course 3"
               />
-              <a
-                className="school-overlay text-decoration-none"
-                href="#">
-                <h5 className="text-white mb-3">Harmony High School</h5>
-                <p className="text-primary m-0">
-                  Nurturing talents and fostering excellence.
-                </p>
-              </a>
+              <div className="bg-secondary p-4">
+                <div className="d-flex justify-content-between mb-3">
+                  <small className="m-0">
+                    <i className="fa fa-users text-primary mr-2" />
+                    30 Students
+                  </small>
+                  <small className="m-0">
+                    <i className="far fa-clock text-primary mr-2" />
+                    02h 00m
+                  </small>
+                </div>
+                <a
+                  className="h5"
+                  href="#">
+                  Harmony High School
+                </a>
+                <div className="border-top mt-4 pt-4">
+                  <div className="d-flex justify-content-between">
+                    <h6 className="m-0">
+                      <i className="fa fa-star text-primary mr-2" />
+                      4.8 <small>(300)</small>
+                    </h6>
+                    <h5 className="m-0">$150</h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </SwiperSlide>
-          {/* Add more SwiperSlide components for additional schools */}
+          <SwiperSlide>
+            <div className="rounded overflow-hidden mb-2">
+              <img
+                className="img-fluid"
+                src="/web2/img/course-3.jpg"
+                alt="Course 3"
+              />
+              <div className="bg-secondary p-4">
+                <div className="d-flex justify-content-between mb-3">
+                  <small className="m-0">
+                    <i className="fa fa-users text-primary mr-2" />
+                    30 Students
+                  </small>
+                  <small className="m-0">
+                    <i className="far fa-clock text-primary mr-2" />
+                    02h 00m
+                  </small>
+                </div>
+                <a
+                  className="h5"
+                  href="#">
+                  Harmony High School
+                </a>
+                <div className="border-top mt-4 pt-4">
+                  <div className="d-flex justify-content-between">
+                    <h6 className="m-0">
+                      <i className="fa fa-star text-primary mr-2" />
+                      4.8 <small>(300)</small>
+                    </h6>
+                    <h5 className="m-0">$150</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="rounded overflow-hidden mb-2">
+              <img
+                className="img-fluid"
+                src="/web2/img/course-3.jpg"
+                alt="Course 3"
+              />
+              <div className="bg-secondary p-4">
+                <div className="d-flex justify-content-between mb-3">
+                  <small className="m-0">
+                    <i className="fa fa-users text-primary mr-2" />
+                    30 Students
+                  </small>
+                  <small className="m-0">
+                    <i className="far fa-clock text-primary mr-2" />
+                    02h 00m
+                  </small>
+                </div>
+                <a
+                  className="h5"
+                  href="#">
+                  Harmony High School
+                </a>
+                <div className="border-top mt-4 pt-4">
+                  <div className="d-flex justify-content-between">
+                    <h6 className="m-0">
+                      <i className="fa fa-star text-primary mr-2" />
+                      4.8 <small>(300)</small>
+                    </h6>
+                    <h5 className="m-0">$150</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
