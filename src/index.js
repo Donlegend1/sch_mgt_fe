@@ -57,10 +57,7 @@ const SchoolList = React.lazy(() => import("./components/schools/SchoolList"));
 
 
 
-//Components
-const GraduantsUpload = React.lazy(() =>
-  import("./components/Scn-WebComponents/graduantsUpload")
-);
+
 
 const Payments = React.lazy(() =>
   import("./components/Scn-Components/Payments/PaymentTypes")
@@ -502,10 +499,6 @@ const Root = () => {
                   />
                 
                
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/change-of-details-list/:id`}
-                    element={<SinglePersonalTemList />}
-                  />
                  
                   <Route
                     path={`${process.env.PUBLIC_URL}/change-of-details-list/:id`}
@@ -516,54 +509,9 @@ const Root = () => {
                     element={<EnrolledUserList />}
                   />
                 
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/enrolled-user/:id`}
-                    element={<GetSingleEnrollment />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/send-enrolled-user/:id`}
-                    element={<SendSingleEnrolledUser />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/enrollment-status/:id`}
-                    element={<GetSingleEnrolledUser />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/enrollment-by-volume`}
-                    element={<EnrollmentByVolume />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/all-enrolled-pub-lawyers`}
-                    element={<PublicEnrolledList />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/enrolled-user/edit/:id`}
-                    element={<EditEnrollment />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/graduants-upload`}
-                    element={<GraduantsUpload />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/graduands-list`}
-                    element={<GraduandsList />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/graduands-details`}
-                    element={<GraduandsDetails />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/paid-graduands`}
-                    element={<GraduandsPaid />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/graduands-lists`}
-                    element={<Graduands />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/graduand-temp`}
-                    element={<GraduandTemp />}
-                  />
+              
+               
+             
                
                   <Route
                     path={`${process.env.PUBLIC_URL}/change-of-name-request`}

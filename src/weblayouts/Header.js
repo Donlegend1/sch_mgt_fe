@@ -85,12 +85,12 @@ const Header = () => {
                   id="navbarCollapse">
                   <div className="navbar-nav py-0 flex-column flex-lg-row">
                     <a
-                      href="index.html"
+                      href="/"
                       className="nav-item nav-link active">
                       Home
                     </a>
                     <a
-                      href="about.html"
+                      href="/about"
                       className="nav-item nav-link">
                       About
                     </a>
@@ -104,7 +104,7 @@ const Header = () => {
                       </a>
                       <div className="dropdown-menu rounded-0 m-0">
                         <a
-                          href="blog.html"
+                          href="#"
                           className="dropdown-item">
                           Check Result
                         </a>

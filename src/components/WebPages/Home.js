@@ -5,6 +5,7 @@ import Features from "../Scn-WebComponents/Features";
 import Team from '../Scn-WebComponents/Team';
 import Testimonial from '../Scn-WebComponents/Testimonial';
 import BlogList from '../Scn-WebComponents/BlogList';
+import Partners from '../Scn-WebComponents/Partners';
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
         <Features />
 
         {/* <Team /> */}
-        <Testimonial />
+        <Partners />
         <BlogList />
       </>
     );

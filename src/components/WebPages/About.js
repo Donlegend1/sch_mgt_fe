@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
+import About from "../Scn-WebComponents/About";
 
 
-const About = () => {
+const AboutPage = () => {
   useEffect(() => {
     const loadWhatsAppWidget = () => {
       // Replace with your group invite link
@@ -63,58 +64,9 @@ const About = () => {
         </div>
       </div>
 
-      <div className="container-xxl py-5">
-        <div className="container">
-          <div className="row g-5 align-items-end">
-            <div
-              className="col-lg-6 col-md-7 wow fadeInUp"
-              data-wow-delay="0.3s">
-              {/* <h1 className="display-1 text-primary mb-0">1k +</h1> */}
-              {/* <p className="text-primary mb-4">Enrolled practioners</p> */}
-              <h1 className="display-5 mb-4">Efficient Enrollment Process</h1>
-              <p className="mb-4">
-                We have simplified the enrollment process for legal practioners.
-                through this application, you will be able to search your name
-                for eligibility, make payment, enter your enrollment details and
-                wait for verification.
-              </p>
-              <a
-                className="btn btn-primary py-3 px-4"
-                href="#">
-                Enroll Now
-              </a>
-            </div>
-            <div
-              className="col-lg-6 col-md-12 wow fadeInUp"
-              data-wow-delay="0.5s">
-              <div className="row g-5">
-                <div className="col-12 col-sm-6 col-lg-12">
-                  <div className="border-start ps-4">
-                    <i className="fa fa-check fa-3x text-primary mb-3" />
-                    <h4 className="mb-3">Easy Process</h4>
-                    <span>
-                      We have made enrollment process simple and easy, you can
-                      apply for enrollment from the confort of your home
-                    </span>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-6 col-lg-12">
-                  <div className="border-start ps-4">
-                    <i className="fa fa-users fa-3x text-primary mb-3" />
-                    <h4 className="mb-3">Dedicated Team</h4>
-                    <span>
-                      We have dedicated IT members that are available 24/7 to
-                      guide you through the process
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     <About />
     </>
   );
 };
 
-export default About;
+export default AboutPage;
