@@ -24,8 +24,7 @@ const BlogList = () => {
                   className="blog-overlay text-decoration-none"
                   href>
                   <h5 className="text-white mb-3">
-                    Lorem elitr magna stet eirmod labore amet labore clita at ut
-                    clita
+                    How To Get Your Children To Do The Best
                   </h5>
                   <p className="text-primary m-0">Jan 01, 2050</p>
                 </a>
@@ -42,8 +41,7 @@ const BlogList = () => {
                   className="blog-overlay text-decoration-none"
                   href>
                   <h5 className="text-white mb-3">
-                    Lorem elitr magna stet eirmod labore amet labore clita at ut
-                    clita
+                   The Best Way To Study
                   </h5>
                   <p className="text-primary m-0">Jan 01, 2050</p>
                 </a>
@@ -60,8 +58,7 @@ const BlogList = () => {
                   className="blog-overlay text-decoration-none"
                   href>
                   <h5 className="text-white mb-3">
-                    Lorem elitr magna stet eirmod labore amet labore clita at ut
-                    clita
+                   Education Is The Way To A Better Life
                   </h5>
                   <p className="text-primary m-0">Jan 01, 2050</p>
                 </a>

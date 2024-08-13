@@ -17,7 +17,7 @@ const Features = () => {
             <div className="card border-0 shadow h-100">
               <img
                 className="card-img-top"
-                src="/web2/img/cat-8.jpg"
+                src="/web2/img/register.jpg"
                 alt="Student Registration"
                 style={{ height: "200px", objectFit: "cover" }}
               />
@@ -35,7 +35,7 @@ const Features = () => {
             <div className="card border-0 shadow h-100">
               <img
                 className="card-img-top"
-                src="/web2/img/cat-8.jpg"
+                src="/web2/img/staff.jpg"
                 alt="Staff Assignment"
                 style={{ height: "200px", objectFit: "cover" }}
               />
@@ -53,7 +53,7 @@ const Features = () => {
             <div className="card border-0 shadow h-100">
               <img
                 className="card-img-top"
-                src="/web2/img/cat-8.jpg"
+                src="/web2/img/result.jpg"
                 alt="Result Calculation"
                 style={{ height: "200px", objectFit: "cover" }}
               />
@@ -71,7 +71,7 @@ const Features = () => {
             <div className="card border-0 shadow h-100">
               <img
                 className="card-img-top"
-                src="/web2/img/cat-7.jpg"
+                src="/web2/img/performance.jpg"
                 alt="Parental Access"
                 style={{ height: "200px", objectFit: "cover" }}
               />
@@ -90,7 +90,7 @@ const Features = () => {
             <div className="card border-0 shadow h-100">
               <img
                 className="card-img-top"
-                src="/web2/img/cat-7.jpg"
+                src="/web2/img/finance.jpg"
                 alt="Parental Access"
                 style={{ height: "200px", objectFit: "cover" }}
               />
@@ -108,7 +108,7 @@ const Features = () => {
             <div className="card border-0 shadow h-100">
               <img
                 className="card-img-top"
-                src="/web2/img/cat-7.jpg"
+                src="/web2/img/bus-tracking.jpg"
                 alt="Bus Tracking"
                 style={{ height: "200px", objectFit: "cover" }}
               />

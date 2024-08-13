@@ -38,10 +38,7 @@ const Clients = () => {
                     <i className="fa fa-users text-primary mr-2" />
                     25 Students
                   </small>
-                  <small className="m-0">
-                    <i className="far fa-clock text-primary mr-2" />
-                    01h 30m
-                  </small>
+                  
                 </div>
                 <a
                   className="h5"
@@ -52,9 +49,9 @@ const Clients = () => {
                   <div className="d-flex justify-content-between">
                     <h6 className="m-0">
                       <i className="fa fa-star text-primary mr-2" />
-                      4.5 <small>(250)</small>
+                      4.5
                     </h6>
-                    <h5 className="m-0">$99</h5>
+                   
                   </div>
                 </div>
               </div>
@@ -73,10 +70,7 @@ const Clients = () => {
                     <i className="fa fa-users text-primary mr-2" />
                     25 Students
                   </small>
-                  <small className="m-0">
-                    <i className="far fa-clock text-primary mr-2" />
-                    01h 30m
-                  </small>
+                 
                 </div>
                 <a
                   className="h5"
@@ -87,9 +81,9 @@ const Clients = () => {
                   <div className="d-flex justify-content-between">
                     <h6 className="m-0">
                       <i className="fa fa-star text-primary mr-2" />
-                      4.5 <small>(200)</small>
+                      4.5 
                     </h6>
-                    <h5 className="m-0">$120</h5>
+                    
                   </div>
                 </div>
               </div>
@@ -108,10 +102,7 @@ const Clients = () => {
                     <i className="fa fa-users text-primary mr-2" />
                     30 Students
                   </small>
-                  <small className="m-0">
-                    <i className="far fa-clock text-primary mr-2" />
-                    02h 00m
-                  </small>
+              
                 </div>
                 <a
                   className="h5"
@@ -122,9 +113,9 @@ const Clients = () => {
                   <div className="d-flex justify-content-between">
                     <h6 className="m-0">
                       <i className="fa fa-star text-primary mr-2" />
-                      4.8 <small>(300)</small>
+                      4.8 
                     </h6>
-                    <h5 className="m-0">$150</h5>
+                    
                   </div>
                 </div>
               </div>
@@ -143,10 +134,7 @@ const Clients = () => {
                     <i className="fa fa-users text-primary mr-2" />
                     30 Students
                   </small>
-                  <small className="m-0">
-                    <i className="far fa-clock text-primary mr-2" />
-                    02h 00m
-                  </small>
+                 
                 </div>
                 <a
                   className="h5"
@@ -157,9 +145,9 @@ const Clients = () => {
                   <div className="d-flex justify-content-between">
                     <h6 className="m-0">
                       <i className="fa fa-star text-primary mr-2" />
-                      4.8 <small>(300)</small>
+                      4.8 
                     </h6>
-                    <h5 className="m-0">$150</h5>
+                    
                   </div>
                 </div>
               </div>
@@ -178,10 +166,7 @@ const Clients = () => {
                     <i className="fa fa-users text-primary mr-2" />
                     30 Students
                   </small>
-                  <small className="m-0">
-                    <i className="far fa-clock text-primary mr-2" />
-                    02h 00m
-                  </small>
+                 
                 </div>
                 <a
                   className="h5"
@@ -192,9 +177,9 @@ const Clients = () => {
                   <div className="d-flex justify-content-between">
                     <h6 className="m-0">
                       <i className="fa fa-star text-primary mr-2" />
-                      4.8 <small>(300)</small>
+                      4.8 
                     </h6>
-                    <h5 className="m-0">$150</h5>
+                   
                   </div>
                 </div>
               </div>
