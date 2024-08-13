@@ -12,10 +12,7 @@ import Home from "./components/WebPages/Home";
 import About from "./components/WebPages/About";
 import Contact from "./components/WebPages/Contact";
 
-import ChiefRegistrars from "./components/Scn-Components/Registra/ChiefRegistrars";
-import CreateChiefRegistrar from "./components/Scn-Components/Registra/CreateChiefRegistrar";
-import RegistrarApproveEnrolled from "./components/Scn-Components/Enrollment/RegistrarApproveEnrolled";
-import RegistrarApprovalList from "./components/Scn-Components/Enrollment/RegistrarApprovalList";
+
 import GraduandsList from "./components/Scn-Components/Graduands/GraduandsList";
 import GraduandsDetails from "./components/Scn-Components/EnrolDetails/Enroll";
 import GraduandsPaid from "./components/Scn-Components/PaidDetials/Paid";
@@ -26,8 +23,6 @@ import Graduands from "./components/Scn-Components/Graduands/Graduands";
 import EnrollmentByVolume from "./components/Scn-Components/Enrollment/EnrollmentByVolume";
 import PublicEnrolledList from "./components/Scn-Components/EnrolledUsers/PublicEnrolledList";
 import MyProfile from "./components/Scn-Components/Auth/MyProfile";
-import CreateDiscipline from "./components/Scn-Components/Disciplinary/CreateDiscipline";
-import Disciplined from "./components/Scn-Components/Disciplinary/Disciplined";
 
 
 
@@ -45,19 +40,7 @@ const Dashboard = React.lazy(() => import("./components/Dashboard/Dashboard"));
 //Widgets
 const Widgets = React.lazy(() => import("./components/Widgets/Widgets"));
 //Components
-const CardDesign = React.lazy(() =>
-  import("./components/Components/CardDesign/CardDesign")
-);
-//Components
-const EnrollmentSearch = React.lazy(() =>
-  import("./components/Scn-WebComponents/EnrollmentSearch")
-);
-const StatusSearch = React.lazy(() =>
-  import("./components/Scn-WebComponents/StatusSearch")
-);
-const EnrollmentStatus = React.lazy(() =>
-  import("./components/Scn-WebComponents/EnrollmentStatus")
-);
+
 const AllUsers = React.lazy(() =>
   import("./components/Scn-Components/Auth/AllUsers")
 );
@@ -78,84 +61,25 @@ const SchoolList = React.lazy(() => import("./components/schools/SchoolList"));
 const GraduantsUpload = React.lazy(() =>
   import("./components/Scn-WebComponents/graduantsUpload")
 );
-const ToEnroll = React.lazy(() =>
-  import("./components/Scn-WebComponents/ToEnroll")
-);
-const ContentScrollBar = React.lazy(() =>
-  import("./components/Components/ContentScrollBar/ContentScrollBar")
-);
-const Counters = React.lazy(() =>
-  import("./components/Components/Counters/Counters")
-);
+
 const Payments = React.lazy(() =>
   import("./components/Scn-Components/Payments/PaymentTypes")
 );
-// const DefaultCalendar = React.lazy(()=>import("./components/Components/DefaultCalendar/DefaultCalendar"));
-const DefaultChat = React.lazy(() =>
-  import("./components/Components/DefaultChat/DefaultChat")
-);
-const FullCalendar = React.lazy(() =>
-  import("./components/Components/FullCalendar/FullCalendar")
-);
-const Loader = React.lazy(() =>
-  import("./components/Components/Loaders/Loaders")
-);
 
-const Notifications = React.lazy(() =>
-  import("./components/Components/Notifications/Notifications")
-);
-const RangeSlider = React.lazy(() =>
-  import("./components/Components/RangeSlider/RangeSlider")
-);
-const Rating = React.lazy(() =>
-  import("./components/Components/Rating/Rating")
-);
-const SweetAlerts = React.lazy(() =>
-  import("./components/Components/SweetAlerts/SweetAlerts")
-);
-const Timeline = React.lazy(() =>
-  import("./components/Components/Timeline/Timeline")
-);
-const Treeview = React.lazy(() =>
-  import("./components/Components/Treeview/Treeview")
-);
-//Elements
-const Alerts = React.lazy(() => import("./components/Elements/Alerts/Alerts"));
-const AvatarRounded = React.lazy(() =>
-  import("./components/Elements/AvatarRounded/AvatarRounded")
-);
-const AvatarSquares = React.lazy(() =>
-  import("./components/Elements/AvatarSquares/AvatarSquares")
-);
-const AvatarRadius = React.lazy(() =>
-  import("./components/Elements/AvatarRadius/AvatarRadius")
-);
 const Badges = React.lazy(() => import("./components/Elements/Badges/Badges"));
-const Buttons = React.lazy(() =>
-  import("./components/Elements/Buttons/Buttons")
-);
+
 const Breadcrumbs = React.lazy(() =>
   import("./components/Elements/Breadcrumbs/Breadcrumbs")
 );
-const Colors = React.lazy(() => import("./components/Elements/Colors/Colors"));
-const DropDowns = React.lazy(() =>
-  import("./components/Elements/DropDowns/DropDowns")
-);
-const List = React.lazy(() => import("./components/Elements/List/List"));
-const Navigation = React.lazy(() =>
-  import("./components/Elements/Navigation/Navigation")
-);
-const Paginations = React.lazy(() =>
-  import("./components/Elements/Paginations/Paginations")
-);
+
+
+
 const Panels = React.lazy(() => import("./components/Elements/Panels/Panels"));
-const Tags = React.lazy(() => import("./components/Elements/Tags/Tags"));
+
 const Thumbnails = React.lazy(() =>
   import("./components/Elements/Thumbnails/Thumbnails")
 );
-const Typography = React.lazy(() =>
-  import("./components/Elements/Typography/Typography")
-);
+
 //Advanced-Elements
 const Mediaobject = React.lazy(() =>
   import("./components/Advanced-Elements/Mediaobject/Mediaobject")
@@ -353,21 +277,12 @@ const CreateModule = React.lazy(() =>
 const CreateTitle = React.lazy(() =>
   import("./components/Scn-Components/Title/CreateTitle")
 );
-const CreateExpectedDocument = React.lazy(() =>
-  import("./components/Scn-Components/ExpectedDocuments/CreateExpectedDocument")
-);
-// const ChangeOfNameRequest = React.lazy(() =>
-//   import("./components/Scn-Components/ChangeOfName/ChangeOfNameRequest")
-// );
+
+
 const GetChangeOfName = React.lazy(() =>
   import("./components/Scn-Components/ChangeOfName/GetChangeOfName")
 );
-// const GetSingleChangeOfName = React.lazy(() =>
-//   import("./components/Scn-Components/ChangeOfName/SingleChangeOfName")
-// );
-const EditChangeOfName = React.lazy(() =>
-  import("./components/Scn-Components/ChangeOfName/EditChangeOfName")
-);
+
 const GetSingleEnrollment = React.lazy(() =>
   import("./components/Scn-Components/Enrollment/SingleEnrolledUser")
 );
@@ -380,24 +295,14 @@ const SendSingleEnrolledUser = React.lazy(() =>
 const EditEnrollment = React.lazy(() =>
   import("./components/Scn-Components/Enrollment/EditEnrolledUser")
 );
-const GetEnrollement = React.lazy(() =>
-  import("./components/Scn-Components/Enrollment/GetEnrollment")
-);
-const PersonalTemList = React.lazy(() =>
-  import("./components/Scn-Components/TemEnroll/PersonalTemList")
-);
+
 const SinglePersonalTemList = React.lazy(() =>
   import("./components/Scn-Components/TemEnroll/SingleTemp")
 );
 const EnrolledUserList = React.lazy(() =>
   import("./components/Scn-Components/EnrolledUsers/EnrolledUserList")
 );
-const BatchEnrolledUserReport = React.lazy(() =>
-  import("./components/Scn-Components/EnrolledUsers/BatchEnrolledUserReport")
-);
-const DateOfPlacementList = React.lazy(() =>
-  import("./components/Scn-Components/Placement/DateOfPlacement")
-);
+
 const CreateRole = React.lazy(() =>
   import("./components/Scn-Components/Module/CreateRole")
 );
@@ -413,12 +318,8 @@ const CreateSubmodule = React.lazy(() =>
 const LockScreen = React.lazy(() =>
   import("./components/CustomPages/LockScreen/LockScreen")
 );
-const EnrollmentConfirmation = React.lazy(() =>
-  import("./components/Scn-WebComponents/EnrollmentConfirmation")
-);
-const Certificate= React.lazy(() =>
-  import("./components/Scn-Components/Certificate/Enrollment")
-);
+
+
 
 //Errorpages
 const Errorpage400 = React.lazy(() =>
@@ -522,38 +423,6 @@ const Root = () => {
                     )
                   }
                 />
-
-                <Route
-                  path={`${process.env.PUBLIC_URL}/enrollment-search`}
-                  element={
-                    user ? (
-                      <Navigate to={`${process.env.PUBLIC_URL}/`} />
-                    ) : (
-                      <EnrollmentSearch />
-                    )
-                  }
-                />
-
-                <Route
-                  path={`${process.env.PUBLIC_URL}/Status-search`}
-                  element={
-                    user ? (
-                      <Navigate to={`${process.env.PUBLIC_URL}/`} />
-                    ) : (
-                      <StatusSearch />
-                    )
-                  }
-                />
-                <Route
-                  path={`${process.env.PUBLIC_URL}/enrollment/:id`}
-                  element={
-                    user ? (
-                      <Navigate to={`${process.env.PUBLIC_URL}/`} />
-                    ) : (
-                      <EnrollmentStatus />
-                    )
-                  }
-                />
               </Route>
 
               <Route
@@ -585,10 +454,7 @@ const Root = () => {
                     path={`${process.env.PUBLIC_URL}/assign-module-to-role`}
                     element={<AssignModuleToRole />}
                   />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/certificate`}
-                    element={<Certificate />}
-                  />
+               
                   <Route
                     path={`${process.env.PUBLIC_URL}/submodule-list`}
                     element={<CreateSubmodule />}
@@ -634,30 +500,13 @@ const Root = () => {
                     path={`${process.env.PUBLIC_URL}/title-list`}
                     element={<CreateTitle />}
                   />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/expected-documents`}
-                    element={<CreateExpectedDocument />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/enrolled-list`}
-                    element={<GetEnrollement />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/date-of-placement`}
-                    element={<DateOfPlacementList />}
-                  />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/change-of-details-list`}
-                    element={<PersonalTemList />}
-                  />
+                
+               
                   <Route
                     path={`${process.env.PUBLIC_URL}/change-of-details-list/:id`}
                     element={<SinglePersonalTemList />}
                   />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/change-of-details-list`}
-                    element={<PersonalTemList />}
-                  />
+                 
                   <Route
                     path={`${process.env.PUBLIC_URL}/change-of-details-list/:id`}
                     element={<SinglePersonalTemList />}
@@ -666,10 +515,7 @@ const Root = () => {
                     path={`${process.env.PUBLIC_URL}/enrolled-users/list`}
                     element={<EnrolledUserList />}
                   />
-                  <Route
-                    path={`${process.env.PUBLIC_URL}/enrolled-users/reports/:id`}
-                    element={<BatchEnrolledUserReport />}
-                  />
+                
                   <Route
                     path={`${process.env.PUBLIC_URL}/enrolled-user/:id`}
                     element={<GetSingleEnrollment />}
@@ -718,10 +564,7 @@ const Root = () => {
                     path={`${process.env.PUBLIC_URL}/graduand-temp`}
                     element={<GraduandTemp />}
                   />
-                  {/* <Route
-                    path={`${process.env.PUBLIC_URL}/change-of-name-request`}
-                    element={<ChangeOfNameRequest />}
-                  /> */}
+               
                   <Route
                     path={`${process.env.PUBLIC_URL}/change-of-name-request`}
                     element={<GetChangeOfName />}
